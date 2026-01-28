@@ -1,0 +1,14 @@
+import os
+
+
+
+
+def path_finder():
+    print(os.getcwd())
+
+
+def name_of_files():
+    print(os.listdir())
+
+name_of_files()
+path_finder()
